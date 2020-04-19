@@ -16,4 +16,26 @@ DEPENDENCIES:
 	pip install selenium
 	pip install beautifulsoup4
 """
+import tkinter as tk
+from tkinter import ttk
 
+class App(tk.Tk):
+	def __init__(self):
+		super().__init__()
+		self.iconbitmap("img/favicon.ico")
+		self.title("Office ToolKit 1.0")
+		
+	def drawmenu(self):
+		pass
+		
+	def drawgui(self):
+		pass
+		
+	def drawstatus(self):
+		pass
+		
+if __name__ == '__main__':
+	root = App()
+	root.geometry("800x600+200+200")
+	root.minsize(800,600)
+	root.mainloop()
