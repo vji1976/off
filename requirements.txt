@@ -9,7 +9,7 @@ dnspython==1.16.0
 exchangelib==3.1.1
 idna==2.9
 isodate==0.6.0
-lxml==4.5.0
+lxml==4.9.1
 ntlm-auth==1.4.0
 oauthlib==3.1.0
 Pillow==7.1.1
